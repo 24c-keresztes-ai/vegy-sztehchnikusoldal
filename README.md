@@ -1,2 +1,9 @@
-# vegy-sztehchnikusoldal
-Nemetz Levente és Keresztes Kornél által készített szakmaweboldal.
+# Vegyésztechnikus oldal.
+
+## Tervezés menete:
+
+* Vs code bővítmények letelepítése
+* Szín, struktúra kiválasztása
+* színek:
+  * Zöld(#BBFF63) Fehér(#ffffff)
+* Struktúra:
