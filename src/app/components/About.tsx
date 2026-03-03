@@ -24,7 +24,7 @@ export function About() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Image side */}
+          
           <div className="relative">
             <div
               className="rounded-2xl overflow-hidden"
@@ -37,7 +37,7 @@ export function About() {
               />
             </div>
 
-            {/* Stats overlay */}
+            
             <div
               className="absolute -bottom-6 -right-4 md:-right-8 p-5 rounded-2xl"
               style={{
@@ -75,14 +75,14 @@ export function About() {
               </div>
             </div>
 
-            {/* Green line accent */}
+            
             <div
               className="absolute -left-4 top-8 bottom-8 w-1 rounded-full"
               style={{ background: "linear-gradient(to bottom, #BBFF63, transparent)" }}
             />
           </div>
 
-          {/* Content side */}
+          
           <div>
             <div
               className="inline-block px-3 py-1 rounded-full mb-6"

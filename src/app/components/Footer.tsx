@@ -39,7 +39,7 @@ export function Footer() {
     >
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          {/* Brand column */}
+          
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <FlaskConical size={22} style={{ color: "#BBFF63" }} />
@@ -67,7 +67,7 @@ export function Footer() {
               Vegyipari és laboratóriumi folyamatok fejlesztésével, ellenőrzésével és
               minőségbiztosításával foglalkozó szakember.
             </p>
-            {/* Social icons */}
+            
             <div className="flex gap-3">
               {[
                 { icon: <Linkedin size={16} />, href: "#" },
@@ -98,7 +98,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick links */}
+          
           <div>
             <p
               style={{
@@ -137,7 +137,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          
           <div>
             <p
               style={{
@@ -174,7 +174,7 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
+        
         <div
           className="flex flex-col md:flex-row items-center justify-between gap-4 pt-8"
           style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}

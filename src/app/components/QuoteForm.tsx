@@ -69,7 +69,7 @@ export function QuoteForm() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
-          {/* Left side */}
+          
           <div>
             <div
               className="inline-block px-3 py-1 rounded-full mb-6"
@@ -112,7 +112,7 @@ export function QuoteForm() {
               Minden megkeresésre 24 órán belül válaszolok.
             </p>
 
-            {/* Process steps */}
+            
             <div className="flex flex-col gap-5">
               {[
                 { num: "01", title: "Töltse ki az űrlapot", desc: "Adja meg adatait és írja le igényét" },
@@ -158,7 +158,7 @@ export function QuoteForm() {
             </div>
           </div>
 
-          {/* Form */}
+          
           <div
             className="p-8 rounded-2xl"
             style={{
@@ -287,7 +287,7 @@ export function QuoteForm() {
                   />
                 </div>
 
-                {/* File upload */}
+                
                 <div>
                   <label style={labelStyle}>Fájl csatolása (opcionális)</label>
                   <button

@@ -20,7 +20,7 @@ export function Hero() {
       style={{ background: "#0A0A0A", fontFamily: "'Inter', sans-serif" }}
       className="relative min-h-screen flex items-center overflow-hidden"
     >
-      {/* Background image overlay */}
+      
       <div
         className="absolute inset-0"
         style={{
@@ -31,7 +31,7 @@ export function Hero() {
         }}
       />
 
-      {/* Grid pattern */}
+      
       <div
         className="absolute inset-0"
         style={{
@@ -43,7 +43,7 @@ export function Hero() {
         }}
       />
 
-      {/* Green glow */}
+      
       <div
         className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full pointer-events-none"
         style={{
@@ -53,7 +53,7 @@ export function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-6 py-32 md:py-40 w-full">
         <div className="max-w-3xl">
-          {/* Badge */}
+          
           <div
             className="inline-flex items-center gap-2 mb-8 px-3 py-1.5 rounded-full"
             style={{
@@ -78,7 +78,7 @@ export function Hero() {
             </span>
           </div>
 
-          {/* Heading */}
+          
           <h1
             style={{
               fontFamily: "'Syne', sans-serif",
@@ -94,7 +94,7 @@ export function Hero() {
             <span style={{ color: "#BBFF63" }}>a laborból</span>
           </h1>
 
-          {/* Description */}
+          
           <p
             style={{
               color: "rgba(255,255,255,0.65)",
@@ -109,7 +109,7 @@ export function Hero() {
             vegyipari laborokban szerzett tapasztalattal támogatja a megbízható működést.
           </p>
 
-          {/* CTA buttons */}
+          
           <div className="flex flex-wrap gap-4 mb-12">
             <button
               onClick={() => handleScroll("#quote")}
@@ -147,7 +147,7 @@ export function Hero() {
             </button>
           </div>
 
-          {/* Highlights */}
+          
           <div className="flex flex-wrap gap-3">
             {highlights.map((h) => (
               <div
@@ -168,7 +168,7 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Testimonial cards floating */}
+        
         <div className="hidden lg:flex flex-col gap-4 absolute right-8 top-1/2 -translate-y-1/2 w-64">
           {[
             { text: "Gyors, precíz és megbízható munka.", name: "K. Péter", role: "Gyártásvezető" },
@@ -216,7 +216,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Bottom fade */}
+      
       <div
         className="absolute bottom-0 left-0 right-0 h-32"
         style={{

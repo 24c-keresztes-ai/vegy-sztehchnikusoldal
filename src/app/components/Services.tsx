@@ -50,7 +50,7 @@ export function Services() {
       className="py-24 md:py-32"
     >
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section header */}
+        
         <div className="max-w-2xl mb-16">
           <div
             className="inline-block px-3 py-1 rounded-full mb-6"
@@ -86,7 +86,7 @@ export function Services() {
           </p>
         </div>
 
-        {/* Services grid */}
+        
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((svc, i) => (
             <Link
@@ -107,7 +107,7 @@ export function Services() {
                 cursor: "pointer",
               }}
             >
-              {/* Icon */}
+              
               <div
                 className="w-12 h-12 rounded-xl flex items-center justify-center"
                 style={{
@@ -121,7 +121,7 @@ export function Services() {
                 {svc.icon}
               </div>
 
-              {/* Title */}
+              
               <h3
                 style={{
                   fontFamily: "'Syne', sans-serif",
@@ -134,7 +134,7 @@ export function Services() {
                 {svc.title}
               </h3>
 
-              {/* Desc */}
+              
               <p
                 style={{
                   color: "rgba(255,255,255,0.55)",
@@ -146,7 +146,7 @@ export function Services() {
                 {svc.desc}
               </p>
 
-              {/* Tags */}
+              
               <div className="flex flex-wrap gap-2">
                 {svc.tags.map((tag) => (
                   <span
@@ -164,7 +164,7 @@ export function Services() {
                 ))}
               </div>
 
-              {/* Arrow */}
+              
               <div className="flex items-center gap-1" style={{ color: "#BBFF63" }}>
                 <span style={{ fontSize: "0.8125rem", fontWeight: 600 }}>Részletek megtekintése</span>
                 <ArrowRight size={14} />
@@ -172,7 +172,7 @@ export function Services() {
             </Link>
           ))}
 
-          {/* CTA card */}
+          
           <div
             className="p-6 rounded-2xl flex flex-col gap-4 items-start justify-between"
             style={{

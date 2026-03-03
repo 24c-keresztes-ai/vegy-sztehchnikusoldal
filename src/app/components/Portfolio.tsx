@@ -44,7 +44,7 @@ export function Portfolio() {
       className="py-24 md:py-32"
     >
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
+        
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div className="max-w-xl">
             <div
@@ -87,7 +87,7 @@ export function Portfolio() {
           </p>
         </div>
 
-        {/* Grid */}
+        
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((p, i) => (
             <div
@@ -105,7 +105,7 @@ export function Portfolio() {
                 (e.currentTarget.style.borderColor = "rgba(255,255,255,0.07)")
               }
             >
-              {/* Image */}
+              
               <div className="relative overflow-hidden h-52">
                 <img
                   src={p.img}
@@ -142,7 +142,7 @@ export function Portfolio() {
                 </div>
               </div>
 
-              {/* Content */}
+              
               <div className="p-6">
                 <h3
                   style={{
