@@ -45,12 +45,12 @@ export function ServiceDetailPage() {
 
   return (
     <div style={{ background: "#0A0A0A", fontFamily: "'Inter', sans-serif" }}>
-      
+      {/* Hero */}
       <section
         className="relative pt-32 pb-24 overflow-hidden"
         style={{ background: "#0A0A0A" }}
       >
-        
+        {/* Grid pattern */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
@@ -61,7 +61,7 @@ export function ServiceDetailPage() {
             backgroundSize: "48px 48px",
           }}
         />
-        
+        {/* Glow */}
         <div
           className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] pointer-events-none"
           style={{
@@ -70,7 +70,7 @@ export function ServiceDetailPage() {
         />
 
         <div className="relative max-w-7xl mx-auto px-6">
-          
+          {/* Breadcrumb */}
           <div className="flex items-center gap-2 mb-10">
             <Link
               to="/"
@@ -94,7 +94,7 @@ export function ServiceDetailPage() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              
+              {/* Icon */}
               <div
                 className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6"
                 style={{ background: "#BBFF63", color: "#0A0A0A" }}
@@ -102,7 +102,7 @@ export function ServiceDetailPage() {
                 {iconMap[service.slug]}
               </div>
 
-              
+              {/* Badge */}
               <div
                 className="inline-block px-3 py-1 rounded-full mb-5"
                 style={{
@@ -143,7 +143,7 @@ export function ServiceDetailPage() {
                 {service.heroDesc}
               </p>
 
-              
+              {/* Tags */}
               <div className="flex flex-wrap gap-2 mb-8">
                 {service.tags.map((tag) => (
                   <span
@@ -182,7 +182,7 @@ export function ServiceDetailPage() {
               </button>
             </div>
 
-            
+            {/* Right: What is */}
             <div
               className="p-8 rounded-2xl"
               style={{
@@ -215,11 +215,11 @@ export function ServiceDetailPage() {
         </div>
       </section>
 
-      
+      {/* What we do + Benefits */}
       <section className="py-20" style={{ background: "#0D0D0D" }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-10">
-            
+            {/* What we do */}
             <div>
               <h2
                 style={{
@@ -249,7 +249,7 @@ export function ServiceDetailPage() {
               </ul>
             </div>
 
-            
+            {/* Benefits */}
             <div>
               <h2
                 style={{
@@ -289,7 +289,7 @@ export function ServiceDetailPage() {
         </div>
       </section>
 
-      
+      {/* Process */}
       <section className="py-20" style={{ background: "#0A0A0A" }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-xl mx-auto mb-14">
@@ -312,7 +312,7 @@ export function ServiceDetailPage() {
           </div>
 
           <div className="relative">
-            
+            {/* Connecting line */}
             <div
               className="hidden md:block absolute top-6 left-[calc(10%-4px)] right-[calc(10%-4px)] h-px"
               style={{ background: "rgba(187,255,99,0.2)", zIndex: 0 }}
@@ -357,7 +357,7 @@ export function ServiceDetailPage() {
         </div>
       </section>
 
-      
+      {/* FAQ */}
       <section className="py-20" style={{ background: "#0D0D0D" }}>
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -420,10 +420,10 @@ export function ServiceDetailPage() {
         </div>
       </section>
 
-      
+      {/* Quote form */}
       <QuoteForm />
 
-      
+      {/* Other services navigation */}
       <section className="py-16" style={{ background: "#0D0D0D", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
         <div className="max-w-7xl mx-auto px-6">
           <p
@@ -472,7 +472,7 @@ export function ServiceDetailPage() {
               ))}
           </div>
 
-          
+          {/* Prev/Next navigation */}
           <div className="flex justify-between gap-4 mt-8">
             {prevService ? (
               <Link

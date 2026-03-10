@@ -8,7 +8,7 @@ export function Contact() {
       className="py-24 md:py-32"
     >
       <div className="max-w-7xl mx-auto px-6">
-        
+        {/* Header */}
         <div className="text-center max-w-xl mx-auto mb-16">
           <div
             className="inline-block px-3 py-1 rounded-full mb-6"
@@ -44,7 +44,7 @@ export function Contact() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
-          
+          {/* Contact info cards */}
           <div className="flex flex-col gap-4">
             {[
               {
@@ -114,7 +114,7 @@ export function Contact() {
               </a>
             ))}
 
-            
+            {/* Social media */}
             <div
               className="p-5 rounded-2xl"
               style={{
@@ -166,7 +166,7 @@ export function Contact() {
             </div>
           </div>
 
-          
+          {/* Google Maps embed */}
           <div
             className="rounded-2xl overflow-hidden"
             style={{

@@ -35,7 +35,7 @@ export function Testimonials() {
       className="py-24 md:py-32"
     >
       <div className="max-w-7xl mx-auto px-6">
-        
+        {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div
             className="inline-block px-3 py-1 rounded-full mb-6"
@@ -70,7 +70,7 @@ export function Testimonials() {
           </p>
         </div>
 
-        
+        {/* Testimonials grid */}
         <div className="grid md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
             <div
@@ -81,20 +81,20 @@ export function Testimonials() {
                 border: "1px solid rgba(255,255,255,0.07)",
               }}
             >
-              
+              {/* Quote icon */}
               <Quote
                 size={28}
                 style={{ color: "#BBFF63", opacity: 0.6 }}
               />
 
-              
+              {/* Stars */}
               <div className="flex gap-1">
                 {[...Array(t.rating)].map((_, j) => (
                   <Star key={j} size={14} fill="#BBFF63" stroke="none" />
                 ))}
               </div>
 
-              
+              {/* Text */}
               <p
                 style={{
                   color: "rgba(255,255,255,0.75)",
@@ -106,7 +106,7 @@ export function Testimonials() {
                 „{t.text}"
               </p>
 
-              
+              {/* Author */}
               <div
                 className="flex items-center gap-3 pt-4"
                 style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }}
@@ -148,7 +148,7 @@ export function Testimonials() {
           ))}
         </div>
 
-        
+        {/* Bottom stats row */}
         <div
           className="mt-16 rounded-2xl p-8 grid grid-cols-2 md:grid-cols-4 gap-6"
           style={{
