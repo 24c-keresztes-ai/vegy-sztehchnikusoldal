@@ -137,41 +137,6 @@ export function Footer() {
             </ul>
           </div>
 
-          
-          <div>
-            <p
-              style={{
-                color: "#FFFFFF",
-                fontWeight: 600,
-                fontSize: "0.875rem",
-                marginBottom: "1rem",
-                letterSpacing: "0.02em",
-              }}
-            >
-              Jogi információk
-            </p>
-            <ul className="flex flex-col gap-2.5">
-              {legalLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    style={{
-                      color: "rgba(255,255,255,0.45)",
-                      fontSize: "0.875rem",
-                      textDecoration: "none",
-                      transition: "color 0.2s",
-                    }}
-                    onMouseEnter={(e) => (e.currentTarget.style.color = "#BBFF63")}
-                    onMouseLeave={(e) =>
-                      (e.currentTarget.style.color = "rgba(255,255,255,0.45)")
-                    }
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         
@@ -189,9 +154,6 @@ export function Footer() {
               border: "1px solid rgba(187,255,99,0.15)",
             }}
           >
-            <span style={{ color: "#BBFF63", fontSize: "0.75rem", fontWeight: 500 }}>
-              🧪 Vegyipari & Laboratóriumi Szakértő
-            </span>
           </div>
         </div>
       </div>
